@@ -103,12 +103,3 @@ npm install react react-dom react-beautiful-dnd
 ```
 
 ---
-
-## 💡 Future Enhancements (Optional Bonus)
-- Backend API with **Node.js + Express**.
-- Database integration (**Firebase Firestore / MongoDB**).
-- Quiz Timer functionality.
-- Animations for smoother transitions.
-- Deployment on **Vercel / Render**.
-
----
