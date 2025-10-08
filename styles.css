@@ -1,0 +1,19 @@
+
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Arial;margin:0;background:#f5f7fb;color:#111}
+.app{max-width:1000px;margin:24px auto;padding:16px}
+header{display:flex;align-items:center;justify-content:space-between}
+nav button{margin-left:8px;padding:8px 12px;border-radius:8px;border:1px solid #ddd;background:white}
+nav button.active{background:#0b72ff;color:white;border-color:#0b72ff}
+main{margin-top:18px}
+footer{margin-top:24px;text-align:center;color:#666}
+.container{display:flex;gap:16px}
+.column{background:white;padding:12px;border-radius:8px;flex:1;min-height:200px;border:1px solid #e6e9ef}
+.task{padding:8px;margin-bottom:8px;border-radius:6px;background:#fafafa;border:1px solid #e0e6f0}
+.form-row{display:flex;gap:8px;margin-bottom:8px}
+input, textarea, select{padding:8px;border:1px solid #ddd;border-radius:6px;width:100%}
+.btn{padding:8px 10px;border-radius:6px;border:none;background:#0b72ff;color:white;cursor:pointer}
+.small-btn{padding:6px 8px;border-radius:6px;border:1px solid #ddd;background:white;cursor:pointer}
+.quiz-card{padding:10px;border:1px dashed #ddd;border-radius:8px;margin-bottom:8px;background:#fff}
+.progress{height:10px;background:#eee;border-radius:6px;overflow:hidden}
+.progress > i{display:block;height:100%;background:#0b72ff}
